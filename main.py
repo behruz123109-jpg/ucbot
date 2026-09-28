@@ -13,8 +13,8 @@ from aiogram.types import (
 )
 
 # ==================== SOZLAMALAR ====================
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Bot tokeningizni kiriting
-ADMIN_IDS = [123456789]             # Asosiy admin ID raqami (keyinchalik admin qo'shish mumkin)
+BOT_TOKEN = "8973460698:AAHS6m_gCvKBELjSs9tBnYWI07YgL5nBwYA"  # Bot tokeningizni kiriting
+ADMIN_IDS = [8488028783]             # Asosiy admin ID raqami (keyinchalik admin qo'shish mumkin)
 DB_NAME = "uc_service_pro.db"
 
 logging.basicConfig(level=logging.INFO)
