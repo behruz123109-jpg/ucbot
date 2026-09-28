@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-💎 PRO UC BOT — PUBG Mobile UC sotish boti
-Stack: Python 3.10+, aiogram 3.x, aiosqlite
-Rejimlar: Polling (oddiy) yoki Webhook (WEBHOOK_URL berilsa — "web bot" rejimi)
-"""
 import asyncio
 import csv
 import html
@@ -38,8 +32,8 @@ except ImportError:
     pass
 
 # ============================================================ SOZLAMALAR
-BOT_TOKEN = os.getenv("8973460698:AAHS6m_gCvKBELjSs9tBnYWI07YgL5nBwYA", "")
-SUPER_ADMIN_ID = int(os.getenv("8488028783", "0") or 0)
+BOT_TOKEN = os.getenv("bott", "")
+SUPER_ADMIN_ID = int(os.getenv("id", "0") or 0)
 DB_PATH = os.getenv("DB_PATH", "data/pro_uc_bot.db")
 WEBHOOK_URL = os.getenv("WEBHOOK_URL", "").rstrip("/")
 WEBHOOK_PATH = os.getenv("WEBHOOK_PATH", "/webhook")
